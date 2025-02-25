@@ -1,3 +1,3 @@
 ### Marcos Andrade;
 
-Uso normalmente Java, Rust, Ruby, Cs e Lua.
+Uso normalmente Java, Angular, Rust, Ruby, Cs e Lua.
