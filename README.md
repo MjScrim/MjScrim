@@ -11,12 +11,6 @@ Minha transição do ecossistema de microsserviços (Java/Spring) para o baixo n
 * **Systems Architecture:** Memory Allocators, estruturas de dados intrusivas, IPC (Inter-Process Communication).
 * **Ambiente & Ferramental:** Arch Linux, Hyprland, GCC, GNU Make, Git (patch flow via e-mail e signed-off commits).
 
-### Projetos em Destaque
-
-* **[vCrypto (Em Desenvolvimento)](#)**: Um driver de Sistema Operacional que simula um coprocessador criptográfico de hardware. Escrito inteiramente em C para o Kernel Linux, implementa controle de concorrência restrito e isolamento de hardware global com chamadas via `ioctl`.
-* **[Safer / Virtual Vault](#)**: Módulo de Kernel projetado para fornecer cofres virtuais isolados por sessão. Gerencia alocação dinâmica de heap no espaço do Kernel evitando *Race Conditions* e garantindo sanitização de *Buffer Overflows*.
-* **[Custom Memory Allocator](#)**: Biblioteca de alocação de memória dinâmica desenvolvida do zero em C, focada em estratégias de *First-Fit*/*Best-Fit* para contornar a fragmentação do heap de forma determinística.
-
-### 📬 Contato
+### Contato
 Sempre aberto para discutir arquitetura de sistemas, *patch reviews* ou literatura técnica.
 * **Email:** marcosandrade95963@gmail.com
