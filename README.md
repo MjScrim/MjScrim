@@ -1,9 +1,13 @@
 ## Marcos Andrade
 **Systems & Low-Level Engineer | Linux Kernel Contributor**
 
-Engenheiro de software com foco no desenvolvimento de sistemas de baixo nível, infraestrutura e exploração do espaço do Kernel (Ring 0). Minha base acadêmica em Física (UFCG) me proporciona o rigor matemático e analítico necessário para lidar com gerenciamento de memória, concorrência e arquitetura de hardware.
+Sou um Engenheiro de Software focado no desenvolvimento de sistemas de base, infraestrutura e exploração do espaço do Kernel Linux (Ring 0). 
 
-Minha transição do ecossistema de microsserviços (Java/Spring) para o baixo nível me permite entender a pilha completa de execução: de como uma API recebe um request no Anel 3, até como o Sistema Operacional agenda a thread e aloca os blocos de memória no Anel 0.
+Minha trajetória na tecnologia é guiada pelo rigor matemático e analítico da minha formação em Física (UFCG). Assim como a Física busca dissecar as leis fundamentais que regem a natureza, minha atuação na engenharia de software foca em descer ao "metal" para compreender e controlar os blocos fundamentais da computação: a CPU, a memória e o Sistema Operacional.
+
+Escrevo arquiteturas primariamente em **C**. Meu foco diário envolve o design de sistemas que exigem previsibilidade determinística, alta performance e controle estrito sobre o hardware. Minha zona de conforto é onde a abstração termina: lidando diretamente com alocação de memória customizada, matemática de ponteiros, proteção de zonas críticas (Mutexes/Spinlocks) e a fronteira entre o espaço do usuário (Anel 3) e o núcleo do Sistema Operacional (Anel 0).
+
+Atualmente, dedico minha engenharia ao desenvolvimento de módulos do Kernel Linux, manipulando o Virtual File System (VFS), implementando drivers para *misc/character devices* e projetando interfaces seguras via `ioctl` para coprocessadores e hardware concorrente.
 
 ### Core Competencies
 * **Linguagens:** C, x86 Assembly, Java.
