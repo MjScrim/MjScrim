@@ -1,17 +1,22 @@
-### Marcos Antonio
+## Marcos Andrade
+**Systems & Low-Level Engineer | Linux Kernel Contributor**
 
-Desenvolvedor backend com forte atuação no ecossistema Java, utilizando **Spring Boot** como principal framework para construção de APIs robustas, seguras e escaláveis.
+Engenheiro de software com foco no desenvolvimento de sistemas de baixo nível, infraestrutura e exploração do espaço do Kernel (Ring 0). Minha base acadêmica em Física (UFCG) me proporciona o rigor matemático e analítico necessário para lidar com gerenciamento de memória, concorrência e arquitetura de hardware.
 
-Atualmente estudo com foco em aplicações orientadas a microsserviços, arquitetura limpa, autenticação segura (JWT, OAuth2).
+Minha transição do ecossistema de microsserviços (Java/Spring) para o baixo nível me permite entender a pilha completa de execução: de como uma API recebe um request no Anel 3, até como o Sistema Operacional agenda a thread e aloca os blocos de memória no Anel 0.
 
----
+### ⚙️ Core Competencies
+* **Linguagens:** C, x86 Assembly, Java.
+* **Linux Kernel Development:** Desenvolvimento de módulos (`.ko`), character/misc devices, gerenciamento de concorrência (`mutex`, `spinlocks`), ioctl, e VFS (Virtual File System).
+* **Systems Architecture:** Memory Allocators, estruturas de dados intrusivas, IPC (Inter-Process Communication).
+* **Ambiente & Ferramental:** Arch Linux, Hyprland, GCC, GNU Make, Git (patch flow via e-mail e signed-off commits).
 
-## Tecnologias que utilizo no dia a dia
+### 🛠️ Projetos em Destaque
 
-[![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-[![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
-[![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
+* **[vCrypto (Em Desenvolvimento)](#)**: Um driver de Sistema Operacional que simula um coprocessador criptográfico de hardware. Escrito inteiramente em C para o Kernel Linux, implementa controle de concorrência restrito e isolamento de hardware global com chamadas via `ioctl`.
+* **[Safer / Virtual Vault](#)**: Módulo de Kernel projetado para fornecer cofres virtuais isolados por sessão. Gerencia alocação dinâmica de heap no espaço do Kernel evitando *Race Conditions* e garantindo sanitização de *Buffer Overflows*.
+* **[Custom Memory Allocator](#)**: Biblioteca de alocação de memória dinâmica desenvolvida do zero em C, focada em estratégias de *First-Fit*/*Best-Fit* para contornar a fragmentação do heap de forma determinística.
+
+### 📬 Contato
+Sempre aberto para discutir arquitetura de sistemas, *patch reviews* ou literatura técnica.
+* **Email:** marcosandrade95963@gmail.com
